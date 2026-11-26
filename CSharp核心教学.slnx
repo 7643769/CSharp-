@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Lesson1_类和对象/Lesson1_类和对象.csproj" />
   <Project Path="封装_成员变量和访问修饰符/封装_成员变量和访问修饰符.csproj" Id="08473272-f31b-4342-88a4-deb5de330a26" />
+  <Project Path="封装_成员方法/封装_成员方法.csproj" Id="c56af341-c94c-45ed-885a-d82404f8611c" />
 </Solution>
