@@ -5,9 +5,20 @@
         public string name;
         public int age;
         public Person[] friends;
+        public string position;
+        public Food food;
         public void Speak(string str)
         {
             Console.WriteLine($"{name}说{str}");
+        }
+        public void Walk(string pos)
+        {
+            Console.WriteLine($"{name}去{pos}了");
+        }
+        public void Eat(Food food)
+        {
+            this.food = food;
+            Console.WriteLine($"{name}吃{food}");
         }
         public void AddFriend(Person p)
         {
@@ -30,6 +41,30 @@
         {
             return age >= 18;
         }
+    }
+    class Student
+    {
+        public string name;
+        public int age;
+        public Person[] friends;
+        public string position;
+        public Food food;
+        public string major;
+        public void Eat(Food food)
+        {
+            this.food = food;
+            Console.WriteLine($"{name}吃{food}");
+        }
+        public void Study(string major)
+        {
+            this.major = major;
+            Console.WriteLine($"{name}正在上{major}课");
+        }
+    }
+    class Food
+    {
+        public string name;
+        public double hot;
     }
     
     internal class Program
